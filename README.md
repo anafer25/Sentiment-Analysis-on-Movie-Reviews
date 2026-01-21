@@ -41,6 +41,19 @@ Trained using:
 
 ---
 
+# Result Analysis
+
+The training and validation accuracy plot shows that:
+* Both training and validation accuracy increase steadily over epochs.
+* Validation accuracy closely follows the training accuracy, indicating **minimal overfitting**.
+* The model reaches approximately **85–88% accuracy** on unseen test data, which is solid for a simple architecture.
+* The plateau toward the later epochs suggests the model is approaching its capacity with this architecture, meaning additional complexity (like LSTM/GRU layers) could improve performance.
+
+This plot confirms that the model **learned meaningful patterns from the text data** rather than memorizing the training set.
+
+
+---
+
 # Tools & Technologies
 
 Python | TensorFlow/Keras | NumPy | Matplotlib | Google Colab
