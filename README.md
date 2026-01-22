@@ -1,6 +1,6 @@
 # Sentiment Analysis on Movie Reviews
 
-A beginner-friendly natural language processing project that trains a neural network to classify movie reviews as positive or negative using the **IMDB dataset** with **TensorFlow/Keras**.
+This project implements a baseline sentiment classifier using TensorFlow/Keras, inspired by standard IMDB tutorial architectures that trains a neural network to classify movie reviews as positive or negative using the **IMDB dataset** with **TensorFlow/Keras**.
 
 The goal is to practice:
 * Text preprocessing
